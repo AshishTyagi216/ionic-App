@@ -1,0 +1,19 @@
+/* Empty. Add your own CSS if you like */
+.ion-plus-circled {
+	font-size: 50px;
+	padding: 15px;
+	bottom: 0;
+	position: fixed;
+	right: 0;
+	z-index: 999;
+}
+.wrap-content{
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.textare{
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

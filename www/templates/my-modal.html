@@ -1,0 +1,21 @@
+<ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">My Modal title</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="list">
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Title</span>
+		    <input type="text" placeholder="Title" ng-model="val.title">
+		  </label>
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Description</span>
+		    <textarea ng-model="val.desc"></textarea>
+		  </label>
+		  <label class="item item-input item-stacked-label">
+		    <button class="button button-dark" ng-click="saveNotes(val)">Submit</button>
+		    <button class="button button-assertive" ng-click="modal.hide()">Cancel</button>
+		  </label>
+		</div>
+    </ion-content>
+  </ion-modal-view>

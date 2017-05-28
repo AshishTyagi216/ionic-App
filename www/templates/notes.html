@@ -1,0 +1,13 @@
+<ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Ionic Blank Starter</h1>
+      </ion-header-bar>
+      <ion-content>
+        <div class="row wrap-content">
+          <my-card ng-repeat="note in notes track by $index" ng-click="goto($index)"></my-card>
+        </div>
+      </ion-content>
+      <ion-footer-bar class="bar-stable">
+        <h1 class="title"><i class="ion-plus-circled ion-custom-circle" ng-click="mynote()"></i></h1>
+      </ion-footer-bar>
+    </ion-pane>
